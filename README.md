@@ -6,14 +6,18 @@ Convert `.litematic` files from Minecraft's Litematica mod to:
 
 ## 📥 Get Started
 
-**Option 1: Download (Easiest)**
-- Click the green "Code" button → "Download ZIP"
+**Option 1: Download Release (Recommended)**
+- Go to [Releases](https://github.com/yourusername/litematic-converter/releases)
+- Download the latest release
 - Extract to a folder
 
 **Option 2: Clone with Git**
+- Navigate to, or create, a folder where you want the project
+- Open terminal/command prompt there, then run:
 ```
 git clone https://github.com/yourusername/litematic-converter.git
 ```
+- This creates a `litematic-converter` folder in your current location
 
 ## 🚀 Quick Start
 
@@ -26,7 +30,7 @@ git clone https://github.com/yourusername/litematic-converter.git
    - Open terminal/command prompt INSIDE the project folder:
      - **If downloaded:** The folder where you extracted the ZIP file
      - **If cloned:** The `litematic-converter` folder that was created
-   - Copy and paste this command:
+   - Then, copy and paste this command inside the terminal/command prompt:
    ```
    pip install -r requirements.txt
    ```
