@@ -34,12 +34,12 @@ GUI Features:
 - **Progress tracking** with detailed logs
 - **Cross-platform** (Windows, macOS, Linux)
 
-**Command line for .litematic to .bp (single files only):**
+**Command line for .litematic → .bp (single files only):**
 ```
 python litematic_to_bp_converter.py mycastle.litematic mycastle.bp
 ```
 
-**Command line for .litematic to .schem (single files only):**
+**Command line for .litematic → .schem (single files only):**
 ```
 python litematic_to_schem_advanced.py mycastle.litematic mycastle.schem
 ```
