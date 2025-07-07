@@ -70,7 +70,7 @@ python litematic_to_schem_advanced.py mycastle.litematic mycastle.schem
 
 - **"ModuleNotFoundError" when running**
   - **Solution:** Install dependencies
-  ```bash
+  ```
   pip install -r requirements.txt
   ```
 
