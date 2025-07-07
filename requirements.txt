@@ -1,3 +1,3 @@
-litemapy>=1.5.0
+litemapy>=0.11.0b0
 nbtlib>=2.0.0
 Pillow>=8.0.0 
