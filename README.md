@@ -27,10 +27,11 @@ git clone https://github.com/yourusername/litematic-converter.git
    - ⚠️ **Important:** Check "Add Python to PATH" during installation!
 
 2. **Install dependencies:**
-   - Open terminal/command prompt INSIDE the project folder:
-     - **If downloaded:** The folder where you extracted the ZIP file
-     - **If cloned:** The `litematic-converter` folder that was created
-   - Then, copy and paste this command inside the terminal/command prompt:
+   - **First, navigate into the project folder:**
+     - **If downloaded:** Extract the ZIP file, then go INSIDE the extracted folder (not just where you extracted it). You should see files like `README.md`, `requirements.txt`, etc.
+     - **If cloned:** Go INSIDE the `litematic-converter` folder that was created. You should see files like `README.md`, `requirements.txt`, etc.
+   - **Then, open terminal/command prompt from inside that folder**
+   - Copy and paste this command in the terminal/command prompt:
    ```
    pip install -r requirements.txt
    ```
