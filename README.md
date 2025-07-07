@@ -1,21 +1,38 @@
 # ⚡ Litematic Converter
 
-A user-friendly tool for converting `.litematic` files from Minecraft's Litematica mod to other formats:
-- **`.bp`** (Axiom Blueprint files)
+Convert `.litematic` files from Minecraft's Litematica mod to:
+- **`.bp`** (Axiom Blueprint files) 
 - **`.schem`** (WorldEdit Schematic files)
+
+## 📥 Get Started
+
+**Option 1: Download (Easiest)**
+- Click the green "Code" button → "Download ZIP"
+- Extract to a folder
+
+**Option 2: Clone with Git**
+```
+git clone https://github.com/yourusername/litematic-converter.git
+```
 
 ## 🚀 Quick Start
 
-### 1. Download and Setup
+### 1. Setup
 
-1. **Download** or **Clone** this repository
-2. **Install Python** (3.7 or newer) from [python.org](https://python.org/downloads/)
-3. **Install dependencies** by opening a terminal/command prompt in the project folder and running:
+1. **Install Python** (3.7 or newer) from [python.org](https://python.org/downloads/)
+   - ⚠️ **Important:** Check "Add Python to PATH" during installation!
+
+2. **Install dependencies:**
+   - Open terminal/command prompt INSIDE the project folder:
+     - **If downloaded:** The folder where you extracted the ZIP file
+     - **If cloned:** The `litematic-converter` folder that was created
+   - Copy and paste this command:
    ```
    pip install -r requirements.txt
    ```
+   - Press Enter and wait for it to finish
 
-4. **Verify installation** (optional but recommended):
+3. **Verify everything works** (optional but recommended):
    ```
    python setup_check.py
    ```
